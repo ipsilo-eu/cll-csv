@@ -22,11 +22,11 @@ CLL-CSV is a lightweight, command-line interface (CLI) tool for viewing and edit
 
 ## Installation and Setup (Windows Executable)
 
-CLL-CSV is available as a single, compiled Windows executable (`cl-csv.exe`), requiring no Python setup. The easiest way to install it and make it runnable from anywhere is using the PowerShell installer script.
+CLL-CSV is available as a single, compiled Windows executable (`cll-csv.exe`), requiring no Python setup. The easiest way to install it and make it runnable from anywhere is using the PowerShell installer script.
 
 ### Option 1: One-Line PowerShell Installation (Recommended for Windows)
 
-This command downloads the user-specific installer script, runs it to download `cl-csv.exe`, places it in your **user**'s `PATH`.
+This command downloads the user-specific installer script, runs it to download `cll-csv.exe`, places it in your **user**'s `PATH`.
 
 1.  Open **PowerShell** (not Command Prompt).
 2.  Paste and run the following single command:
@@ -34,10 +34,10 @@ This command downloads the user-specific installer script, runs it to download `
 <!-- end list -->
 
 ```powershell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/ipsilo-eu/cll-csv/main/install/.exe/install-cl-csv-user.ps1" -UseBasicParsing | Invoke-Expression
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/ipsilo-eu/cll-csv/main/install/.exe/install-cll-csv-user.ps1" -UseBasicParsing | Invoke-Expression
 ```
 
-3.  After installation completes, **open a new PowerShell or Command Prompt window** to use the `cl-csv` command.
+3.  After installation completes, **open a new PowerShell or Command Prompt window** to use the `cll-csv` command.
 
 ### Option 2: Manual Download (For any OS)
 
@@ -52,7 +52,7 @@ The executable can be downloaded directly, or the Python script can be run manua
 
 ## Usage
 
-### Running CL-CSV
+### Running CLL-CSV
 
 Once installed via Option 1, or if running the Python script, you can launch the program:
 
