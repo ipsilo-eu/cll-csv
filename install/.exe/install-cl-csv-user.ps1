@@ -1,5 +1,5 @@
 
-$ToolName = "cl-csv.exe"
+$ToolName = "cll-csv.exe"
 $ToolDir = "$env:USERPROFILE\Tools"
 $DownloadUrl = "https://github.com/ipsilo-eu/cll-csv/releases/download/v1.0.0/cll-csv.exe"
 
