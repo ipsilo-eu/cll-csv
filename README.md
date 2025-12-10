@@ -1,6 +1,6 @@
-## CL-CSV: Command Line CSV Viewer and Editor
+## CLL-CSV: Command Line CSV Viewer and Editor
 
-CL-CSV is a lightweight, command-line interface (CLI) tool for viewing and editing CSV files directly in your terminal. It offers a screen-based table display with scrolling, cell-level modifications, and file management functions.
+CLL-CSV is a lightweight, command-line interface (CLI) tool for viewing and editing CSV files directly in your terminal. It offers a screen-based table display with scrolling, cell-level modifications, and file management functions.
 
 ### Key Features
 
@@ -22,7 +22,7 @@ CL-CSV is a lightweight, command-line interface (CLI) tool for viewing and editi
 
 ## Installation and Setup (Windows Executable)
 
-CL-CSV is available as a single, compiled Windows executable (`cl-csv.exe`), requiring no Python setup. The easiest way to install it and make it runnable from anywhere is using the PowerShell installer script.
+CLL-CSV is available as a single, compiled Windows executable (`cl-csv.exe`), requiring no Python setup. The easiest way to install it and make it runnable from anywhere is using the PowerShell installer script.
 
 ### Option 1: One-Line PowerShell Installation (Recommended for Windows)
 
@@ -34,7 +34,7 @@ This command downloads the user-specific installer script, runs it to download `
 <!-- end list -->
 
 ```powershell
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/ipsilo-eu/cl-csv/main/install/.exe/install-cl-csv-user.ps1" -UseBasicParsing | Invoke-Expression
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/ipsilo-eu/cll-csv/main/install/.exe/install-cl-csv-user.ps1" -UseBasicParsing | Invoke-Expression
 ```
 
 3.  After installation completes, **open a new PowerShell or Command Prompt window** to use the `cl-csv` command.
@@ -44,9 +44,9 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; Invoke-WebRequest -U
 The executable can be downloaded directly, or the Python script can be run manually.
 
   * **Windows Executable:** Download the `.exe` file directly:
-    [/.exe/cl-csv.exe](https://raw.githubusercontent.com/ipsilo-eu/cl-csv/main/.exe/cl-csv.exe)
+    [/.exe/cll-csv.exe](https://raw.githubusercontent.com/ipsilo-eu/cll-csv/main/.exe/cll-csv.exe)
   * **Python File:** Download the `.py` file directly (requires Python to be installed):
-    [/.py/cl-csv.py](https://raw.githubusercontent.com/ipsilo-eu/cl-csv/main/.py/cl-csv.py)
+    [/.py/cll-csv.py](https://raw.githubusercontent.com/ipsilo-eu/cll-csv/main/.py/cll-csv.py)
 
 -----
 
@@ -59,13 +59,13 @@ Once installed via Option 1, or if running the Python script, you can launch the
 **Option A: Specify file at launch**
 
 ```bash
-cl-csv your_data.csv
+cll-csv your_data.csv
 ```
 
 **Option B: Enter file at prompt**
 
 ```bash
-cl-csv
+cll-csv
 >>> Filename: my_data.csv
 ```
 
