@@ -803,7 +803,7 @@ while(inp!="end"):
             for i in inpt:
                 if(i!="add"):
                     if(wrtdata!="\n"):
-                        wrtdata=wrtdata+ "," +i
+                        wrtdata=wrtdata+i
                     else:
                         wrtdata="\n"+i
 
@@ -921,7 +921,32 @@ while(inp!="end"):
             print_welcome_message()
 
         case "end":
-            print("File closed and program ended!")
+            print("\n")
+            print("  00000000    00          00                    00000000    00000000     00              00")
+            print(" 00      00   00          00                   00      00  00      00     00            00 ")
+            print(" 00           00          00                   00          00              00          00  ")
+            print(" 00           00          00                   00           0000000         00        00  ")
+            print(" 00           00          00      00000000     00                  00        00      00   ")
+            print(" 00           00          00      00000000     00                  00         00    00   ")
+            print(" 00           00          00                   00          00      00          00  00    ")
+            print(" 00      00   00          00                   00      00  00      00           0000    ")
+            print("  00000000    0000000000  0000000000            00000000    00000000             00   ")
+            print("\n")
+
+            print("-----------------------------------------------------------------------------------------")
+            print("\n")
+            print("                                       00000    00000    ")
+            print("                                      00000000000000000   ")
+            print("                                     0000000000000000000  ")
+            print("       This program was built with   0000000000000000000   by ipsilo.eu")
+            print("                                      00000000000000000   ")
+            print("                                        0000000000000     ")
+            print("                                          000000000       ")
+            print("                                            00000         ")
+            print("                                              0           ")
+            print("\n")
+
+
             break
 
         case "destroy":
